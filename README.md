@@ -20,6 +20,22 @@ The methodology is first validated using a **large scale Chinese water quality d
 
 ---
 
+## 🔄 Project Workflow
+
+```mermaid
+graph TD
+    A["Raw Data<br/>China Dataset (3000 points)"] --> B["Data Cleaning and Preparation"]
+    B --> C["Numerical Model Calibration"]
+    C --> D{"Chapter 2 Methods"}
+    D -->|Interpolation| E["Bivariate Splines / RBF"]
+    D -->|Approximation| F["Least Squares Regression"]
+    E --> G["Validated Global Model"]
+    F --> G
+    G --> H["Projection on Gabes Coordinates"]
+    H --> I["Final Pollution Maps<br/>(2D and 3D)"]
+```
+---
+
 ## 🎯 Objectives
 
 - Construct continuous pollution maps from discrete monitoring data  
