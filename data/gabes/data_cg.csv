@@ -1,0 +1,33 @@
+study,year,location,matrix,metal,min_mg_per_kg,max_mg_per_kg,notes
+Assessment of Metal Contamination in the Gabes Gulf,2024,Gabes Gulf,Marine sediments,Zn,25,3920,High contamination linked to phosphogypsum discharge from phosphate industry
+Assessment of Metal Contamination in the Gabes Gulf,2024,Gabes Gulf,Marine sediments,Cu,5,490,Very high copper concentrations near industrial zones
+Assessment of Metal Contamination in the Gabes Gulf,2024,Gabes Gulf,Marine sediments,Cd,0.1,732,Extreme cadmium enrichment associated with phosphogypsum
+Assessment of Metal Contamination in the Gabes Gulf,2024,Northern coast of Sfax,Marine sediments,Zn,3.6,2077,Strong enrichment compared to regional background
+Assessment of Metal Contamination in the Gabes Gulf,2024,Northern coast of Sfax,Marine sediments,Cu,1,81.4,Moderate to severe contamination
+Assessment of Metal Contamination in the Gabes Gulf,2024,Northern coast of Sfax,Marine sediments,Cd,0.1,35.9,High ecological risk
+Assessment of Metal Contamination in the Gabes Gulf,2024,Southern coast of Sfax,Marine sediments,Zn,39,117,Moderate contamination
+Assessment of Metal Contamination in the Gabes Gulf,2024,Southern coast of Sfax,Marine sediments,Cu,13,28.8,Moderate contamination
+Assessment of Metal Contamination in the Gabes Gulf,2024,Southern coast of Sfax,Marine sediments,Cd,5.5,7.2,Moderate enrichment
+Spatial distribution of heavy metals in southern Sfax,2018,Southern coast of Sfax,Marine sediments,As,,,"Unpolluted to low contamination"
+Spatial distribution of heavy metals in southern Sfax,2018,Southern coast of Sfax,Marine sediments,Ni,,,"Lithogenic origin dominant"
+Spatial distribution of heavy metals in southern Sfax,2018,Southern coast of Sfax,Marine sediments,Cr,,,"Moderately polluted"
+Spatial distribution of heavy metals in southern Sfax,2018,Southern coast of Sfax,Marine sediments,Cu,,,"Moderately polluted"
+Spatial distribution of heavy metals in southern Sfax,2018,Southern coast of Sfax,Marine sediments,Zn,,,"Moderately to strongly polluted"
+Spatial distribution of heavy metals in southern Sfax,2018,Southern coast of Sfax,Marine sediments,Cd,,,"Extremely polluted at all sampling sites"
+Assessment of heavy metal pollution using mollusc species,2011,Gulf of Gabes,Mollusc tissue,Cd,,,"High bioaccumulation in gastropods and bivalves"
+Assessment of heavy metal pollution using mollusc species,2011,Gulf of Gabes,Mollusc tissue,Cu,,,"Elevated concentrations near Gabes city"
+Assessment of heavy metal pollution using mollusc species,2011,Gulf of Gabes,Mollusc tissue,Pb,,,"Exceeds international standards in central gulf"
+Assessment of heavy metal pollution using mollusc species,2011,Gulf of Gabes,Mollusc tissue,Zn,,,"Higher concentrations near phosphoric acid industry"
+Biomonitoring using Posidonia oceanica,2017,Central Gabes Gulf,Seagrass leaves,Cd,,,"Leaves accumulate highest Cd concentrations"
+Biomonitoring using Posidonia oceanica,2017,Central Gabes Gulf,Seagrass leaves,Cu,,,"High uptake from contaminated seawater"
+Biomonitoring using Posidonia oceanica,2017,Central Gabes Gulf,Seagrass leaves,Zn,,,"Indicator of long-term contamination"
+Biomonitoring using Posidonia oceanica,2017,Central Gabes Gulf,Seagrass roots,Pb,,,"Roots show higher lead accumulation"
+Biomonitoring using Posidonia oceanica,2017,Central Gabes Gulf,Seagrass mat,Cd,,,"Decreasing concentration with depth indicating historical trend"
+Uranium and Thorium in beach sediments,2025,Central Gulf of Gabes,Beach sediments,U,0.71,38,Associated with phosphogypsum waste since 1970s
+Uranium and Thorium in beach sediments,2025,Central Gulf of Gabes,Beach sediments,Th,1,10.6,Parallel geochemical behavior with Uranium
+Seawater quality assessment,2018,Central coastal Gabes Gulf,Seawater,Cd,,,"Strong industrial impact, acidic waters"
+Seawater quality assessment,2018,Central coastal Gabes Gulf,Seawater,Cu,,,"Elevated near industrial discharge"
+Seawater quality assessment,2018,Central coastal Gabes Gulf,Seawater,Zn,,,"Highest values in central industrial area"
+Seawater quality assessment,2018,Central coastal Gabes Gulf,Seawater,P,,,"Phosphorus enrichment linked to fertilizer industry"
+Benthic foraminiferal assemblages study,2011,Northern Gabes Gulf,Marine sediments,Cd,,,"Correlation with reduced species diversity"
+Benthic foraminiferal assemblages study,2011,Northern Gabes Gulf,Marine sediments,Total hydrocarbons,,,"Petrogenic pollution from industrial and fishing activities"
