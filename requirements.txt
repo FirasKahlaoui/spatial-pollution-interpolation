@@ -6,3 +6,5 @@ jupyter
 scikit-learn
 seaborn
 folium
+h3
+plotly
