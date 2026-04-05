@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data and Artifacts (optional, but good to keep repo light)
+# output/  # Keep if you want to show the results in the repo
+# data/
+
+# OS
+.DS_Store
+Thumbs.db

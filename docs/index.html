@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China Heavy Metals Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Plotly.js -->
+    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <header>
+                <div class="logo">
+                    <h1>WaterWatch</h1>
+                </div>
+                <p class="tagline">China Heavy Metals Dashboard</p>
+            </header>
+            
+            <nav class="controls">
+                <section class="control-group">
+                    <h2>Layer Selection</h2>
+                    <p class="instruction">Toggle visual layers on the satellite map:</p>
+                    <div class="button-stack">
+                        <button class="layer-btn active" data-layer="overall" title="Combined safety assessment">
+                            <span class="btn-color-dot rainbow"></span> Overall Safety Grid
+                        </button>
+                        <button class="layer-btn" data-layer="pb" title="Lead concentration">
+                            <span class="btn-color-dot blue"></span> Lead (Pb) Mesh
+                        </button>
+                        <button class="layer-btn" data-layer="cd" title="Cadmium concentration">
+                            <span class="btn-color-dot orange"></span> Cadmium (Cd) Mesh
+                        </button>
+                        <button class="layer-btn" data-layer="hg" title="Mercury concentration">
+                            <span class="btn-color-dot purple"></span> Mercury (Hg) Mesh
+                        </button>
+                        <button class="layer-btn" data-layer="none" title="Show only stations">
+                            <span class="btn-color-dot none"></span> Hidden Surfaces
+                        </button>
+                    </div>
+                </section>
+
+                <section class="legend-section">
+                    <h2>Safety Index</h2>
+                    <div class="legend-item">
+                        <span class="dot danger"></span>
+                        <span>Danger Zone</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="dot medium"></span>
+                        <span>Medium Zone</span>
+                    </div>
+                    <div class="legend-item">
+                        <span class="dot safe"></span>
+                        <span>Safe Zone</span>
+                    </div>
+                </section>
+            </nav>
+        </aside>
+
+        <main class="map-viewport">
+            <div id="plotly-map">
+                <div class="loading-overlay">
+                    <div class="spinner"></div>
+                    <p>Loading Interpolated Surface Data...</p>
+                </div>
+            </div>
+            
+            
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
