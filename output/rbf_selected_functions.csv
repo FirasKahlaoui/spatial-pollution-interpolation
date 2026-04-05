@@ -1,7 +1,0 @@
-target,function,smooth,epsilon
-Heavy_Metals_Hg_ug_L,linear,0.0,0.1
-Heavy_Metals_Pb_ug_L,linear,0.0,0.1
-Heavy_Metals_Cd_ug_L,linear,0.0,0.1
-Ammonia_N_mg_L,linear,0.0,0.1
-Total_Phosphorus_mg_L,linear,0.0,0.1
-Nitrite_mg_L,linear,0.0,0.1
