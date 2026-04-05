@@ -47,8 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // 2: Hg Grid
                 // 3: Overall Grid
                 // 4,5,6: Station points (always visible or toggle group)
-                
-let visibility;
+                let visibility;
                 switch(layerType) {
                     case 'overall':
                         // Show: Overall Grid [3] and Overall Stations [7]
