@@ -237,7 +237,7 @@ geojson_data = {"type": "FeatureCollection", "features": hex_features}
 fig = go.Figure()
 
 colormaps = {"Pb (ug/L)": "Blues", "Cd (ug/L)": "Oranges", "Hg (ug/L)": "Purples"}
-layer_maxes = {"Pb (ug/L)": 50, "Cd (ug/L)": 5, "Hg (ug/L)": 0.1}
+layer_maxes = {"Pb (ug/L)": 25, "Cd (ug/L)": 3, "Hg (ug/L)": 0.3}
 z_arrays = {"Pb (ug/L)": hex_pbs, "Cd (ug/L)": hex_cds, "Hg (ug/L)": hex_hgs}
 
 # Trace 0, 1, 2: Add Hexagon Mesh Layers for Individual Metals
