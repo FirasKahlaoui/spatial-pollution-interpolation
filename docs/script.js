@@ -48,22 +48,27 @@ document.addEventListener('DOMContentLoaded', async () => {
                 // 3: Overall Grid
                 // 4,5,6: Station points (always visible or toggle group)
                 
-                let visibility;
+let visibility;
                 switch(layerType) {
                     case 'overall':
-                        visibility = [false, false, false, true, true, true, true];
+                        // Show: Overall Grid [3] and Overall Stations [7]
+                        visibility = [false, false, false, true, false, false, false, true];
                         break;
                     case 'pb':
-                        visibility = [true, false, false, false, true, true, true];
+                        // Show: Pb Grid [0] and Pb Stations [4]
+                        visibility = [true, false, false, false, true, false, false, false];
                         break;
                     case 'cd':
-                        visibility = [false, true, false, false, true, true, true];
+                        // Show: Cd Grid [1] and Cd Stations [5]
+                        visibility = [false, true, false, false, false, true, false, false];
                         break;
                     case 'hg':
-                        visibility = [false, false, true, false, true, true, true];
+                        // Show: Hg Grid [2] and Hg Stations [6]
+                        visibility = [false, false, true, false, false, false, true, false];
                         break;
                     case 'none':
-                        visibility = [false, false, false, false, true, true, true];
+                        // Hide all grids, show only the Overall Stations [7]
+                        visibility = [false, false, false, false, false, false, false, true];
                         break;
                 }
 
